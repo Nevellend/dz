@@ -1,30 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>table</title>
-  <link rel="stylesheet" href="../css/styles.css">
+	<meta charset="UTF-8">
+	<title>Мондриана</title>
+	<link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-  <table class="table">
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td rowspan="2">4</td>
-      </tr>
-      <tr>
-        <td colspan="2">5</td>
-        <td>7</td>
-      </tr>
-      <tr>
-        <td>9</td>
-        <td colspan="2">10</td>
-        <td>12</td>
-      </tr>
-    </tbody>
-  </table>
-  <a href="../index.html">go back</a>
+	<div class="main">
+		<table>
+			<tr class="row-1">
+				<td class="first-row" colspan="2"></td>
+				<td class="second-row" colspan="2"></td>
+				<td class="third-row" colspan="2"></td>
+			</tr>
+			<tr class="row-2">
+				<td class="first-row"></td>
+				<td class="second-row" rowspan="2" colspan="3"></td>
+				<td class="third-row" colspan="2"></td>
+			</tr>
+			<tr class="row-3">
+				<td class="first-row" rowspan="2"></td>
+				<td class="second-row"></td>
+				<td class="third-row"></td>
+			</tr>
+			<tr class="row-4">
+				<td class="first-row" rowspan="2" colspan="2"></td>
+				<td class="second-row"></td>
+				<td class="third-row" colspan="2"></td>
+			</tr>
+			<tr class="row-5">
+				<td class="first-row" rowspan="3"></td>
+				<td class="second-row"></td>
+				<td class="third-row" rowspan="2" colspan="2"></td>
+			</tr>
+			<tr class="row-6">
+				<td class="first-row" rowspan="2" colspan="2"></td>
+				<td class="second-row"></td>
+			</tr>
+			<tr class="row-7">
+				<td class="first-row" colspan="3"></td>
+			</tr>
+		</table>
+	</div>
 </body>
 </html>
